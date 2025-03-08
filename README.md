@@ -26,7 +26,7 @@ config --global user.email ваша почта@example.com
 * Создать папку в необходимом репозитории компьютера
 * Перейти с помощью проводника в **Visual Studio Code** в созданную папку
 * Инициализировать репозиторий в терминале командой ```git init```
-![Изображение](/screenshots/1.png)
+![Изображение]([/screenshots/1.png](https://github.com/Genius1107/Readme/blob/main/Screenshots/1%20(1).png))
 
 
 ✦ git status – получить информацию от git о его текущем состоянии
