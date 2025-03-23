@@ -57,11 +57,13 @@ config --global user.email ваша почта@example.com
 «Что сделать + для какой сущности + подробности (необязательно)».)
 
 Команда, которая позволяет оставить сообщение для коммита:
+
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/gitvommit.jpg)
 
 ✦ git log – вывод на экран истории всех коммитов с их хеш-кодами
 ```git log``` - стандартный вид
 * ```git log --graph``` - вид с графическим отображением веток
+
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20log.jpg)
  
 ✦ git checkout – переход от одного коммита к другому
