@@ -26,16 +26,19 @@ config --global user.email ваша почта@example.com
 * Создать папку в необходимом репозитории компьютера
 * Перейти с помощью проводника в **Visual Studio Code** в созданную папку
 * Инициализировать репозиторий в терминале командой ```git init```
+* 
 ![Изображение](https://github.com/Genius1107/Readme/blob/main/Screenshots/1%20(1).png)
 
 
 ✦ git status – получить информацию от git о его текущем состоянии
+
 ![Изображение](https://github.com/Genius1107/Readme/blob/main/Screenshots/5404576886266392974.jpg)
 
 ✦ git add – добавить файл или файлы к следующему коммит
 
 Для добавление изменений в коммит используется команда ```git add``` и имя файла<br>
 Например, ```git add README.md```
+
 ![Picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20add.jpg)
 
 
@@ -71,6 +74,7 @@ config --global user.email ваша почта@example.com
 * ```git checkout <номер коммита, первые 4 символа>``` - перейти к определенному изменению
 * ```git master``` - перейти к изменению последнего коммита
 ✦ git checkout master – вернуться к актуальному состоянию и продолжить работу
+
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20checout.jpg)
 
 Введение в контроль версий. Работа с Git. Составление инструкции по работе с Git.
@@ -98,22 +102,28 @@ https://docs.microsoft.com/ru-ru/contribute/markdown-reference
 
 ## Работа с ветками
 * ```git branch``` - посмотреть список веток
+  
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch.jpg)
   
 * ```git branch <название ветки>``` - создать ветку (новая ветка унаследует коммиты родительской ветки)
+  
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/image%20(2).png)
   
 * ```git checkout <название ветки>``` - перейти на ветку
+  
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20checout.jpg)
   
 * ```git branch -d <название ветки>``` - удалить ветку после merge
 * ```git branch -D <название ветки>``` - удалить ветку принудительно
+  
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch%20-D.jpg)
   
 * ```git merge <название сливаемой ветки>``` - сливание веток
+  
 ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20merge.jpg)
   
 * При слияние веток(если в обеих ветках были изменения) могут возникнуть ошибки слияния, где гит предложит самостоятельно редактировать текст:
+  
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0.jpg)
   
 # Настройка SSH для GitHub
@@ -137,11 +147,13 @@ https://docs.microsoft.com/ru-ru/contribute/markdown-reference
 Создание SSH-ключей
 Запустите Git Bash или Терминал VSC (если у вас Windows) или Терминал (на Linux/MacOS).
 Выполните команду ssh-keygen:
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/ssh%20keygen.jpg)
 
 Консоль попросит ввести путь к файлу, в который будут сохранены сгенерированные ключи, и
 одновременно предложит сохранить их в файл по умолчанию:
 Enter file in which to save the key (/home/имя_пользователя/.ssh/id_rsa): 
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_214419070.png)
 
 Сохраните ключи в папку по умолчанию: для этого нажмите Enter на Windows или Return на
@@ -149,24 +161,29 @@ macOS. В уроках мы исходим из того, что ключи со
 При создании ключей система попросит придумать пароль для доступа к ключам. Когда вы будете
 задавать пароль, в терминале ничего не отобразится, даже звёздочки:
 Enter passphrase (empty for no passphrase): 
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_214546172.png)
 
 Обязательно создайте пароль и запомните его — это дополнительная мера безопасности на тот
 случай, если ваш приватный ключ попадёт не в те руки.
 Рисунок в окне терминала будет свидетельствовать, что ключи успешно созданы:
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_214812754.png)
 
 Теперь необходимо сохранить открытый ключ в вашем аккаунте на GitHub.
 Выведите ключ в терминал командой:
 cat .ssh/id_rsa.pub
 Скопируйте ключ от символов ssh-rsa , включительно, и до конца:
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_215237021.png)
 
 Зайдите в свой аккаунт на GitHub, перейдите в раздел настроек:
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_215543613.png)
 
 Выберите пункт SSH and GPG keys; для создания нового ключа нажмите на кнопку New SSH key в
 правом верхнему углу:
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_215759661.png)
 
 Откроется страница с двумя полями ввода:
@@ -176,10 +193,12 @@ cat .ssh/id_rsa.pub
 уникальные заголовки, например ключ с домашнего компьютера можно назвать HomePC,
 а с рабочего — WorkPC.
 • Key (ключ). Сюда необходимо вставить скопированный из терминала ключ.
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_215958770.png)
 
 Нажмите кнопку Add SSH key — ключ добавится к вашему аккаунту. Если вы захотите получить SSHдоступ к своему аккаунту на GitHub с нескольких компьютеров, для каждого из них должен быть
 создан и добавлен свой SSH-ключ.
+
 ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2025-03-23_220115754.png)
 
 
