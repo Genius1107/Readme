@@ -57,12 +57,12 @@ config --global user.email ваша почта@example.com
 «Что сделать + для какой сущности + подробности (необязательно)».)
 
 Команда, которая позволяет оставить сообщение для коммита:
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/gitvommit.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/gitvommit.jpg)
 
 ✦ git log – вывод на экран истории всех коммитов с их хеш-кодами
 ```git log``` - стандартный вид
 * ```git log --graph``` - вид с графическим отображением веток
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20log.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20log.jpg)
  
 ✦ git checkout – переход от одного коммита к другому
  ```git checkout```
@@ -96,23 +96,23 @@ https://docs.microsoft.com/ru-ru/contribute/markdown-reference
 
 ## Работа с ветками
 * ```git branch``` - посмотреть список веток
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch.jpg)
   
 * ```git branch <название ветки>``` - создать ветку (новая ветка унаследует коммиты родительской ветки)
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/image%20(2).png)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/image%20(2).png)
   
 * ```git checkout <название ветки>``` - перейти на ветку
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20checout.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20checout.jpg)
   
 * ```git branch -d <название ветки>``` - удалить ветку после merge
 * ```git branch -D <название ветки>``` - удалить ветку принудительно
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch%20-D.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20branch%20-D.jpg)
   
 * ```git merge <название сливаемой ветки>``` - сливание веток
-* ![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20merge.jpg)
+![picture](https://github.com/Genius1107/Readme/blob/main/Screenshots/git%20merge.jpg)
   
 * При слияние веток(если в обеих ветках были изменения) могут возникнуть ошибки слияния, где гит предложит самостоятельно редактировать текст:
-* ![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0.jpg)
+![](https://github.com/Genius1107/Readme/blob/main/Screenshots/%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0.jpg)
   
 # Настройка SSH для GitHub
 
